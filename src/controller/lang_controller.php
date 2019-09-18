@@ -34,7 +34,7 @@ while ($row = $result->fetch_assoc()) {
     $i++;
 }
 
-echo json_encode($responce);
+echo json_encode($response);
 
 $stmt->close();
 DbClose($con);
